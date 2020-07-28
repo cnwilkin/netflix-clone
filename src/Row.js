@@ -1,11 +1,17 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react';
+import axios from './axios';
 
-function Row({ title }) {
+function Row({ title, fetchUrl }) {
     const [movies, setMovies] = useState([]);
 
     // A snippet of code which runs based on a specific condition/variable
-    useEffect(() => {
-
+    useEffect((fetchUrl) => {
+        async function fetchData() {
+            const request = await axios.get(fetchUrl);
+            console.log(request);
+            return request;
+        }
+        fetchData();
     }, []);
     
     return (

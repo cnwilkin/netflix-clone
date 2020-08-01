@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import axios from './axios';
 
 function Row({ title, fetchUrl }) {
-    const [movies, setMovies] = useState([]);
+    // const [movies, setMovies] = useState([]);
 
     // A snippet of code which runs based on a specific condition/variable
-    useEffect((fetchUrl) => {
+    useEffect(() => {
         async function fetchData() {
             const request = await axios.get(fetchUrl);
             console.log(request);

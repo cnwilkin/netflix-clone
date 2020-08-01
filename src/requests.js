@@ -1,5 +1,7 @@
 const API_KEY = "e068775e86a1d13a7589938becc19e4a";
 
+// https://api.themoviedb.org/3/movie/550?api_key=e068775e86a1d13a7589938becc19e4a
+
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
     fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,

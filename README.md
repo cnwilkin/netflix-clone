@@ -4,7 +4,7 @@ Follows the video [How to Build a NETFLIX Clone with REACT JS for Beginners (in 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Project live on Firebase](ttps://netflix-clone-2af53.web.app/)
+[Project live on Firebase](https://netflix-clone-2af53.web.app/)
 
 ## Available Scripts
 

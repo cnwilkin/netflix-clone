@@ -6,6 +6,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [Project live on Firebase](https://netflix-clone-2af53.web.app/)
 
+## Deploy
+
+Install firebase tools `npm install -g firebase-tools`
+
+Build project `npm run build`
+
+Login to Firebase `firebase login`
+
+Deploy :boom: `firebase deploy`
+
 ## Available Scripts
 
 In the project directory, you can run:
